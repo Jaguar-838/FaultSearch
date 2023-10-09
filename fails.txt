@@ -1,0 +1,20 @@
+У роутера CUAC12G000470 ошибка по: WAN			-Fail
+У роутера CUAC12G000623 ошибка по: WAN			Fail
+У роутера CUAC12G000647 ошибка по: LED lan4    		Fail
+У роутера CUAC12G000692 ошибка по: LED power-g 		Fail
+У роутера CUAC12G000878 ошибка по: 		Fail
+У роутера CUAC12G001070 ошибка по: TestVoltage		Fail
+У роутера CUAC12G001162 ошибка по: LED lan4    		Fail
+У роутера CUAC12G001988 ошибка по: TestProcess		Fail
+У роутера CUAC12G001994 ошибка по: LED lan3    		Fail
+У роутера CUAC12G002439 ошибка по: WAN			-Fail
+У роутера CUAC12G002439 ошибка по: LED wan     		Fail
+У роутера CUAC12G002444 ошибка по: LED power-r 		Fail
+У роутера CUAC12G002444 ошибка по: LED power-g 		Fail
+У роутера CUAC12G002444 ошибка по: LED power-b 		Fail
+У роутера CUAC12G002446 ошибка по: WAN			-Fail
+У роутера CUAC12G002528 ошибка по: TestProcess		Fail
+У роутера CUAC12G002546 ошибка по: TestVoltage		Fail
+У роутера CUAC12G002556 ошибка по: TestProcess		Fail
+У роутера CUAC12G002560 ошибка по: LED lan4    		Fail
+У роутера numCUAC12G000623 ошибка по: WAN			Fail

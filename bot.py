@@ -12,12 +12,12 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 def my_function():
-    search.start()
     return 'ok'
 
 def run(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     result = my_function()
     update.message.reply_text(result)
+    search.start()
 
 def main() -> None:
     application = ApplicationBuilder().token(tg_webApi._token).build()
@@ -26,4 +26,5 @@ def main() -> None:
     application.run_polling()
 
 if __name__ == '__main__':
+    tg_webApi.send_mess(text='Started')
     main()

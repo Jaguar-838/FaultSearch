@@ -12,3 +12,11 @@ def send_document(token=_token, chat_id=_chat_id, document_path=''):
         response = requests.post(url, files=files, data=data)
     return response.json()
 
+def send_mess(token=_token, chat_id=_chat_id, text='0'):
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    data = {
+        "chat_id": chat_id,
+        "text": text
+    }
+    response = requests.post(url, data=data)
+    return response.json()

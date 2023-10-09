@@ -8,8 +8,8 @@ def start():
     lg_fails = logger.Logger('', 'fails.txt')
     lg_stat.open()
     lg_fails.open()
-
-    path = 'reports'
+    #@reboot /usr/bin/python3 /home/pcuser/Tests_mac_print/FaultSearch/bot.py
+    path = '/home/pcuser/Desktop/reports'
 
     _all, _deleted = fTool.delete_small_len_files(path)
     lg_stat.log(f'Всего файлов было: {_all}')
